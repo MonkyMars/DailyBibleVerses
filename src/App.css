@@ -1,0 +1,40 @@
+body{
+  background-color: #e3e3e3;
+}
+
+@media screen and (max-width: 1080px) {
+  .verse-container{
+    width: 325px !important;
+    top: 50vh !important;
+    margin-top: 35px;
+    max-height: 75% !important;
+    position: absolute !important;
+  }
+  .DBV{
+    text-align: center;
+    position: relative !important;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .button-div{
+    display: flex !important;
+    position: fixed !important;
+    bottom: -3.5px !important;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    width: 90%
+  }  
+  .button-div2{
+    right: -5px !important;
+    top: -5px !important;
+  }
+  #button{
+    width: 200px;
+  }
+  button:active{
+    transform: scale(0.985)
+  }
+}
+
